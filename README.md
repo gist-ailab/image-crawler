@@ -13,8 +13,15 @@ Crawling images with Python Script.
 2. Create Anaconda environment and install requirements to setup python environment.
 
     ``` shell
+    # create and activate conda env
     conda create -n crawler python=3.8
     conda activate crawler
+
+    # clone git repo
+    git clone https://github.com/gist-ailab/image-crawler
+    cd image-crawler
+
+    # install requirements
     pip install –r requirements.txt
     ```
 
